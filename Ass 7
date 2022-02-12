@@ -1,0 +1,30 @@
+sc=50
+rc=80
+oc=85
+mc=100
+cc=150
+cname=input('enter customer name:')
+cphno=input('enter customer phone number:')
+scq=int(input('enter no:of salt packets:'))
+rcq=int(input('enter no:of redchilli packets:'))
+ocq=int(input('enter no:of oil packets:'))
+mcq=int(input('enter no:of maggi packets:'))
+ccq=int(input('enter no:of chaatmasala packets:'))
+bill=(sc*scq)+(rc*rcq)+(oc*ocq)+(mc*mcq)+(cc*ccq)
+if bill>=5000:
+    dis=bill*10/100
+    tax=bill*10/100
+elif bill>3000:
+    dis=bill*8/100
+    tax=bill*10/100
+elif bill>2000:
+    dis=bill*5/100
+    tax=bill*18/100
+elif bill>1000:
+    dis=bill*3/100
+    tax=bill*18/100
+else:
+    dis=0
+    tax=bill*18/100
+mainbill=bill-dis+tax
+print('bill amount:',mainbill)
