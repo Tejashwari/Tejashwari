@@ -1,0 +1,14 @@
+
+num=int(input('enter a number'))
+result=0
+while num>0:
+    digit=num%10
+    result=result+digit
+    num=num//10
+print('sum is:',result)
+Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========================== RESTART: C:/Users/hp/sum.py =========================
+enter a number23456
+sum is: 20
