@@ -1,0 +1,12 @@
+n=int(input('enter a number'))
+count=0
+while n>0:
+    n=n//10
+    count=count+1
+print('total number of digits',count)
+Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+======================== RESTART: C:/Users/hp/number.py ========================
+enter a number2345678
+total number of digits 7
