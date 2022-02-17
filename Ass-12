@@ -1,0 +1,15 @@
+a=-1
+b=1
+n=int(input('enter nvalue'))
+for i in range(1,n+1):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========================= RESTART: C:/Users/hp/sai.y.py ========================
+enter nvalue2
+0
+1
