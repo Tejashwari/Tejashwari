@@ -1,0 +1,33 @@
+n=int(input('enter number:'))
+k=2*n-2
+for i in range(0,n):
+    for j in range(0,k):
+        print(end=" ")
+    k=k-1
+    for j in range(0,i+1):
+        print('*',end=' ')
+    print()
+k=n-2
+for i in range (n,-1,-1):
+    for j in range(k,0,-1):
+        print(end=" ")
+    k=k+1
+    for j in range(0,i+1):
+        print('*',end=' ')
+    Print()
+Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+======================== RESTART: C:/Users/hp/school.py ========================
+enter number:5
+        * 
+       * * 
+      * * * 
+     * * * * 
+    * * * * * 
+   * * * * * * 
+    * * * * * 
+     * * * * 
+      * * * 
+       * * 
+        *
