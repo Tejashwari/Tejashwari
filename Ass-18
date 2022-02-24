@@ -1,0 +1,15 @@
+l=[]
+n=int(input('enter number:'))
+for i in range(1,n+1):
+    x=int(input())
+    l.append(x)
+print(l)
+m=[]
+n=[]
+for i in range(1):
+    if l[i]%2==1:
+        m.append(l[i])
+    else:
+        n.append(l[i])
+print(m)
+print(n)
